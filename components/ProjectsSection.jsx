@@ -11,6 +11,54 @@ import {
 
 const projects = [
   {
+    title: "Job Sync AI",
+    description:
+      "Currently developing an AI-powered job matching platform that enhances CVs and generates tailored applications. Users upload CVs, receive personalized job recommendations, custom CVs, and cover letters, with features like skills gap analysis and application tracking. Built with Next.js and OpenAI, styled with Tailwind CSS (ongoing).",
+    technologies: [
+      "Next.js",
+      "JavaScript",
+      "OpenAI",
+      "Tailwind CSS",
+      "django",
+      "Rest Apis",
+      "postgres DB",
+    ],
+    icon: "JobIcon",
+    iconBg: "bg-gradient-to-r from-cyan-500 to-blue-500",
+    links: [
+      {
+        icon: "GithubIcon",
+        url: "https://github.com/1MjCee/JobSyncAI",
+        label: "View Code",
+      },
+      {
+        icon: ExternalLinkIcon,
+        url: "https://www.webtestingdomain.online/",
+        label: "Live Demo",
+      },
+    ],
+  },
+  {
+    title: "AI Job Application Optimizer",
+    description:
+      "Built a web application to optimize resumes and cover letters for ATS compatibility. Users upload PDF/DOCX documents, input job descriptions, and receive tailored documents with enhanced keywords and formatting, powered by OpenAI and Streamlit.",
+    technologies: ["Python", "Streamlit", "OpenAI", "pdfplumber", "ReportLab"],
+    icon: "ResumeIcon",
+    iconBg: "bg-gradient-to-r from-teal-500 to-cyan-500",
+    links: [
+      {
+        icon: GithubIcon,
+        url: "https://github.com/1MjCee/AI-Job-Appplication-optimizer",
+        label: "View Code",
+      },
+      {
+        icon: ExternalLinkIcon,
+        url: "https://1mjcee-ai-job-appplication-optimizer-app-1zbpev.streamlit.app/",
+        label: "Live Demo",
+      },
+    ],
+  },
+  {
     title: "Customer Churn Prediction Model",
     description:
       "Built a machine learning model to predict customer churn using ensemble methods. Achieved 94% accuracy with Random Forest and implemented feature importance analysis for business insights.",
@@ -33,45 +81,22 @@ const projects = [
     ],
   },
   {
-    title: "Box Office Data Scraping Project",
+    title: "AI Research Agent",
     description:
-      "Implemented a Python script to scrape box office data from Box Office Mojo, extracting data from HTML tags and transforming it into a Pandas DataFrame for analysis, saved as a CSV file.",
-    technologies: [
-      "Python",
-      "Pandas",
-      "Requests",
-      "Beautiful Soup",
-      "HTML Parser",
-    ],
-    icon: "DataIcon",
-    iconBg: "bg-gradient-to-r from-purple-500 to-indigo-500",
+      "Developed a web application that answers complex research queries with detailed, AI-generated responses. Users input questions or topics, and the app leverages OpenAI's language models to provide insights, built with a Streamlit interface for seamless interaction.",
+    technologies: ["Python", "Streamlit", "OpenAI"],
+    icon: "ResearchIcon",
+    iconBg: "bg-gradient-to-r from-blue-500 to-indigo-500",
     links: [
       {
-        icon: GithubIcon,
-        url: "https://github.com/1MjCee/Web-scrapping-Box-Office-Mojo-movie-data-with-Beautiful-Soup",
+        icon: "GithubIcon",
+        url: "https://github.com/1MjCee/research-ai-agent",
         label: "View Code",
       },
-    ],
-  },
-  {
-    title: "Zillow Time Series Model",
-    description:
-      "Trained an ARIMA-based time series model to predict house prices, leveraging data preprocessing and visualization for accurate forecasting.",
-    technologies: [
-      "Python",
-      "NumPy",
-      "Pandas",
-      "SciPy",
-      "Matplotlib",
-      "Seaborn",
-    ],
-    icon: "ForecastIcon",
-    iconBg: "bg-gradient-to-r from-orange-500 to-red-500",
-    links: [
       {
-        icon: GithubIcon,
-        url: "https://github.com/1MjCee/Forecasting-Real-Estate-Prices---Time-Series-Modeling",
-        label: "View Code",
+        icon: ExternalLinkIcon,
+        url: "https://1mjcee-research-ai-agent-app-ml5fal.streamlit.app/",
+        label: "Live Demo",
       },
     ],
   },
@@ -99,48 +124,19 @@ const projects = [
     ],
   },
   {
-    title: "Predicting King County House Prices",
+    title: "AI Customer Assistant",
     description:
-      "Built a linear regression model to predict house prices in King County, identifying key features for real estate investment decisions.",
-    technologies: [
-      "Python",
-      "NumPy",
-      "Pandas",
-      "SciPy",
-      "Stats Model",
-      "Scikit-Learn",
-      "Matplotlib",
-    ],
-    icon: "RegressionIcon",
-    iconBg: "bg-gradient-to-r from-green-500 to-lime-500",
-    links: [
-      {
-        icon: GithubIcon,
-        url: "https://github.com/1MjCee/dsc-phase-2-project-v2-3",
-        label: "View Code",
-      },
-    ],
-  },
-  {
-    title: "Microsoft Studio Investment Recommendations",
-    description:
-      "Analyzed box office data to provide evidence-based recommendations on movie genres and release times for Microsoft Studios to maximize profits.",
-    technologies: [
-      "Python",
-      "NumPy",
-      "Pandas",
-      "SciPy",
-      "Matplotlib",
-      "Seaborn",
-    ],
-    icon: "AnalyticsIcon",
-    iconBg: "bg-gradient-to-r from-yellow-500 to-amber-500",
+      "Created a Next.js-based chatbot integrated into a portfolio website, powered by OpenAI, to assist users with inquiries about my services and projects. Features a responsive chat interface with real-time responses and Tailwind CSS styling for a modern user experience.",
+    technologies: ["Next.js", "JavaScript", "OpenAI", "Tailwind CSS"],
+    icon: "ChatIcon",
+    iconBg: "bg-gradient-to-r from-indigo-500 to-purple-500",
     links: [
       {
         icon: "GithubIcon",
-        url: "https://github.com/1MjCee/project_phase_1",
+        url: "https://github.com/1MjCee/ai-chat-portfolio",
         label: "View Code",
       },
+      //   { icon: ExternalLinkIcon, url: "#", label: "Live Demo" },
     ],
   },
 ];

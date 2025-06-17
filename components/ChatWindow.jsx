@@ -1,4 +1,3 @@
-// components/ChatWindow.jsx
 "use client";
 import ChatMessage from "./ChatMessage";
 import ChatInput from "./ChatInput";
@@ -13,7 +12,7 @@ export default function ChatWindow({
 }) {
   return (
     <div
-      className={`fixed bottom-20 right-6 w-96 bg-white/95 backdrop-blur-md shadow-2xl rounded-2xl border border-white/20 transition-all duration-300 z-40 ${
+      className={`fixed w-full h-full sm:w-96 sm:h-auto sm:bottom-20 sm:right-6 bg-white/95 backdrop-blur-md shadow-2xl rounded-2xl sm:rounded-2xl border border-white/20 transition-all duration-300 z-40 ${
         isOpen
           ? "opacity-100 scale-100 translate-y-0"
           : "opacity-0 scale-95 translate-y-4 pointer-events-none"
@@ -65,7 +64,7 @@ export default function ChatWindow({
       </div>
 
       {/* Chat Messages */}
-      <div className="h-80 overflow-y-auto p-4 space-y-4">
+      <div className="h-[calc(100%-120px)] sm:h-80 overflow-y-auto p-4 space-y-4">
         {messages.length === 0 && (
           <div className="text-center py-8">
             <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">

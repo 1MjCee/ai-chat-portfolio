@@ -6,6 +6,8 @@ const skills = [
   "Python",
   "JavaScript",
   "React",
+  "Next Js",
+  "Django",
   "Machine Learning",
   "Data Analysis",
   "SQL",
@@ -18,6 +20,7 @@ const skills = [
   "Scikit-Learn",
   "Pandas",
   "MongoDB",
+  "Postgress",
 ];
 
 export default function TechStack() {
